@@ -34,7 +34,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [Add live site URL here](https://jwvdriel.github.io/GrittyGrid/)
+- Live Site URL: [live page](https://jwvdriel.github.io/GrittyGrid/)
 
 ## My process
 
