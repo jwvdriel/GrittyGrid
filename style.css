@@ -275,3 +275,77 @@
     line-height: 1;
   }
 }
+
+@media screen and (min-width: 375px) {
+  .heading {
+    font-size: 2.5rem;
+  }
+
+  .first-article img {
+    width: 50%;
+  }
+
+  .first-article p {
+    font-size: 1rem;
+  }
+
+  .second-article {
+    max-height: 25vh;
+  }
+
+  .second-article p {
+    font-size: 1.5rem;
+  }
+
+  .third-article {
+    height: 32vh;
+  }
+
+  .third-article p {
+    font-size: 1.5rem;
+  }
+
+  .first-paragraph {
+    font-size: 1.5rem;
+  }
+
+  .second-paragraph {
+    font-size: 1.2rem;
+  }
+
+  .fourth-article {
+    max-height: 70vh;
+  }
+
+  .fifth-article {
+    max-height: 50vh;
+  }
+
+  .fifth-article p {
+    font-size: 1.6rem;
+  }
+
+  .sixth-article {
+    max-height: 34vh;
+  }
+
+  .seventh-article {
+    max-height: 33vh;
+  }
+
+  .seventh-article p {
+    font-size: 2rem;
+  }
+
+  .eight-article p {
+    font-size: 1.8rem;
+  }
+
+  .eight-article {
+    max-height: 55vh;
+  }
+
+  .eight-article img {
+    margin-bottom: 1rem;
+  }
+}
