@@ -257,7 +257,7 @@
   .eight-article {
     background-color: var(--Yellow_500);
     border-radius: var(--borderRadius);
-    min-height: 48vh;
+    min-height: 47vh;
   }
 
   .eight-article img {
@@ -298,7 +298,11 @@
   }
 
   .third-article {
-    height: 32vh;
+    height: 33vh;
+  }
+
+  .image-fade {
+    margin: 0.5rem 1rem 0 1rem;
   }
 
   .third-article p {
@@ -343,6 +347,85 @@
 
   .eight-article {
     max-height: 55vh;
+  }
+
+  .eight-article img {
+    margin-bottom: 1rem;
+  }
+}
+
+@media screen and (min-width: 425px) {
+  .heading {
+    font-size: 2.9rem;
+  }
+
+  .first-article img {
+    width: 50%;
+  }
+
+  .first-article p {
+    font-size: 1.1rem;
+  }
+
+  .second-article {
+    max-height: 27vh;
+  }
+
+  .second-article p {
+    font-size: 1.7rem;
+  }
+
+  .third-article {
+    height: 38vh;
+  }
+
+  .image-fade {
+    width: 63%;
+    margin: 0.5rem 0 0 1rem;
+  }
+
+  .third-article p {
+    font-size: 1.8rem;
+  }
+
+  .first-paragraph {
+    font-size: 1.7rem;
+  }
+
+  .second-paragraph {
+    font-size: 1.3rem;
+  }
+
+  .fourth-article {
+    max-height: 75vh;
+  }
+
+  .fifth-article {
+    max-height: 55vh;
+  }
+
+  .fifth-article p {
+    font-size: 1.8rem;
+  }
+
+  .sixth-article {
+    max-height: 34vh;
+  }
+
+  .seventh-article {
+    max-height: 36vh;
+  }
+
+  .seventh-article p {
+    font-size: 2.3rem;
+  }
+
+  .eight-article p {
+    font-size: 2.1rem;
+  }
+
+  .eight-article {
+    max-height: 60vh;
   }
 
   .eight-article img {
