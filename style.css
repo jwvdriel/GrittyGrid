@@ -27,7 +27,7 @@ body {
 #container-layout {
   display: grid;
   grid-template-columns: 1fr;
-  grid-gap: 2rem;
+  grid-gap: 3rem;
   margin-top: 2rem;
 }
 
@@ -38,15 +38,16 @@ body {
   flex-direction: column;
   border-radius: var(--borderRadius);
   align-items: center;
+  min-height: 80vh;
 }
 
 .heading {
-  font-size: 3.4rem;
+  font-size: 5.4rem;
   font-weight: var(--font-medium);
   color: #fff;
   line-height: 1;
   text-align: center;
-  margin-bottom: 1.5rem;
+  margin-bottom: 2.5rem;
 }
 
 .first-article img {
@@ -56,7 +57,7 @@ body {
 
 .first-article p {
   color: var(--Purple_100);
-  font-size: var(--Font_size_paragraph);
+  font-size: 2rem;
   margin: 0.5rem 0 2.5rem 0;
 }
 
@@ -74,6 +75,9 @@ body {
   background-color: var(--Yellow_100);
   height: 25vh;
   border-radius: var(--borderRadius);
+  display: flex;
+  flex-direction: column;
+  min-height: 35vh;
 }
 
 .second-article img {
@@ -83,12 +87,11 @@ body {
 
 .second-article p {
   color: var(--Black);
-  font-size: 1.5rem;
+  font-size: 2.5rem;
   line-height: 1;
   margin: 1rem;
   font-family: var(--main_font);
   font-weight: 600;
-  line-height: 1;
   letter-spacing: -1px;
 }
 
@@ -97,17 +100,17 @@ body {
 .third-article {
   background-color: var(--Yellow_500);
   border-radius: var(--borderRadius);
-  height: 34vh;
+  min-height: 50vh;
   position: relative;
   overflow-y: hidden;
 }
 
 .third-article p {
-  font-size: 1.5rem;
+  font-size: 2.6rem;
   font-family: var(--main_font);
   font-weight: 600;
   color: var(--Black);
-  margin: 1rem 1rem 0 1rem;
+  margin: 1rem 1rem 0.5rem 1rem;
   line-height: 1;
   letter-spacing: -1px;
 }
@@ -123,31 +126,37 @@ body {
 .fourth-article {
   background-color: var(--Purple_100);
   border-radius: var(--borderRadius);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 
 .first-paragraph {
-  font-size: 1.5rem;
+  font-size: 2.5rem;
   font-family: var(--main_font);
   font-weight: 600;
   color: var(--Black);
-  margin: 2rem 1rem 0 1rem;
+  margin: 2rem 1rem 2rem 1rem;
   text-align: center;
   letter-spacing: -1px;
 }
 
 .fourth-article img {
   width: 90%;
-  margin: 1rem 1rem 0 1rem;
+  margin: 0 auto;
+  display: flex;
 }
 
 .second-paragraph {
-  font-size: 1.3rem;
-  margin: 1rem 1rem 2rem 1rem;
+  width: 85%;
+  font-size: 1.9rem;
+  margin: 2rem auto 2rem auto;
   text-align: center;
   font-weight: 500;
   font-family: var(--main_font);
   color: var(--Black);
   letter-spacing: -1px;
+  line-height: 1;
 }
 
 /* ----------------------------------------------------------- */
@@ -157,18 +166,18 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  height: 50vh;
-  justify-content: center;
+  min-height: 80vh;
   border-radius: var(--borderRadius);
 }
 
 .fifth-article img {
   width: 60%;
+  margin: 2rem 0 1rem 0;
 }
 
 .fifth-article p {
   color: var(--White);
-  font-size: 1.7rem;
+  font-size: 2.8rem;
   margin: 2rem 1rem 0 1rem;
   width: 60%;
   text-align: center;
@@ -183,28 +192,31 @@ body {
 .sixth-article {
   background-color: var(--White);
   border-radius: var(--borderRadius);
+  display: flex;
+  flex-direction: column;
+  min-height: 43vh;
 }
 
 .sixth-article h2 {
   display: flex;
   font-size: 3rem;
   font-family: var(--main_font);
-  font-weight: 500;
+  font-weight: 600;
   color: var(--Black);
   line-height: 1;
   letter-spacing: -1px;
-  margin: 2rem 1rem 0 1rem;
+  margin: 2rem 1rem 0 2rem;
 }
 
 .sixth-article img {
-  width: 55%;
-  margin: 0 1rem 1rem 1rem;
+  width: 50%;
+  margin: 1rem 1rem 1rem 2rem;
 }
 
 .sixth-article p {
   font-size: 1.2rem;
   font-family: "DM Sans";
-  margin: 1rem 1rem 1rem 1rem;
+  margin: 1rem 1rem 1rem 2rem;
   font-weight: 500;
   color: var(--Black);
 }
@@ -214,16 +226,19 @@ body {
 .seventh-article {
   background-color: var(--Yellow_100);
   border-radius: var(--borderRadius);
+  display: flex;
+  flex-direction: column;
+  min-height: 50vh;
 }
 
 .seventh-article img {
   width: 55%;
-  margin: 0 0 2rem 1.4rem;
+  margin: 2rem 0 2rem 2rem;
 }
 
 .seventh-article p {
   width: 85%;
-  font-size: 1.7rem;
+  font-size: 2.8rem;
   font-family: var(--main_font);
   font-weight: 600;
   letter-spacing: -1px;
@@ -241,21 +256,21 @@ body {
 .eight-article {
   background-color: var(--Yellow_500);
   border-radius: var(--borderRadius);
-  height: 50vh;
+  height: 77vh;
 }
 
 .eight-article img {
   width: 60%;
-  margin: 1rem 1rem 0 1rem;
+  margin: 1rem 1rem 0 2rem;
 }
 
 .eight-article p {
   width: 70%;
-  font-size: 1.7rem;
+  font-size: 2.7rem;
   font-weight: 600;
   font-family: var(--main_font);
   color: var(--Black);
   letter-spacing: -1px;
-  margin: 1rem 1rem 0 1rem;
+  margin: 2rem 1rem 1rem 2rem;
   line-height: 1;
 }
