@@ -78,7 +78,7 @@
     border-radius: var(--borderRadius);
     display: flex;
     flex-direction: column;
-    min-height: 22vh;
+    max-height: 22vh;
   }
 
   .second-article img {
@@ -101,7 +101,7 @@
   .third-article {
     background-color: var(--Yellow_500);
     border-radius: var(--borderRadius);
-    min-height: 29vh;
+    height: 29vh;
     position: relative;
     overflow-y: hidden;
   }
@@ -127,7 +127,7 @@
   .fourth-article {
     background-color: var(--Purple_100);
     border-radius: var(--borderRadius);
-    min-height: 60vh;
+    max-height: 60vh;
     display: flex;
     flex-direction: column;
   }
@@ -167,7 +167,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    min-height: 45vh;
+    max-height: 45vh;
     border-radius: var(--borderRadius);
   }
 
@@ -179,7 +179,7 @@
   .fifth-article p {
     color: var(--White);
     font-size: 1.5rem;
-    margin: 1rem 1rem 0 1rem;
+    margin: 1rem 1rem 1rem 1rem;
     width: 60%;
     text-align: center;
     font-family: var(--main_font);
@@ -195,7 +195,7 @@
     border-radius: var(--borderRadius);
     display: flex;
     flex-direction: column;
-    min-height: 30vh;
+    max-height: 30vh;
   }
 
   .sixth-article h2 {
@@ -211,7 +211,7 @@
 
   .sixth-article img {
     width: 60%;
-    margin: 0 1rem 1rem 1rem;
+    margin: 0 1rem 2rem 1rem;
   }
 
   .sixth-article p {
@@ -229,12 +229,12 @@
     border-radius: var(--borderRadius);
     display: flex;
     flex-direction: column;
-    min-height: 30vh;
+    max-height: 30vh;
   }
 
   .seventh-article img {
     width: 55%;
-    margin: 0 0 0 1rem;
+    margin: 0 0 1rem 1rem;
   }
 
   .seventh-article p {
@@ -274,4 +274,7 @@
     margin: 2rem 1rem 1rem 1rem;
     line-height: 1;
   }
+}
+
+@media screen (max-width: ) {
 }
