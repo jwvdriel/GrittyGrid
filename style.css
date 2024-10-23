@@ -28,7 +28,7 @@ body {
   width: 100%;
   display: grid;
   grid-template-columns: 1fr;
-  grid-gap: 3rem;
+  grid-gap: 2.5rem;
   margin-top: 2rem;
 }
 
@@ -353,7 +353,7 @@ body {
   }
 }
 
-@media screen and (min-width: 425px) {
+@media screen and (min-width: 425px) and (max-width: 435px) {
   .heading {
     font-size: 2.9rem;
   }
